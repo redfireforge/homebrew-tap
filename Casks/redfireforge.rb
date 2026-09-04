@@ -1,9 +1,9 @@
 cask "redfireforge" do
-  arch arm: "aarch64", intel: "x64"
+  arch arm: "aarch64", intel: "826F784A5959F1E4DC3AAE92DAED98E2028ED7F4BFDE9D05A50121D4C179731E"
 
-  version "0.8.2"
-  sha256 arm:   "b732bf5b35b04d9a14dbd2eaa8405030ddd1db96a19384d30998c3400b00db82",
-         intel: "a93108c7bc7763f2229f8f989594cde5dfc7479ee3b252b7a33a6564352f0704"
+  version "0.8.3"
+  sha256 arm:   "0C58AAB2F952238992016B2547D397057689E5CBE7182D999FBA2630D0C57118",
+         intel: "826F784A5959F1E4DC3AAE92DAED98E2028ED7F4BFDE9D05A50121D4C179731E"
 
   url "https://github.com/redfireforge/redfireforge-public/releases/download/v#{version}/RedfireForge_#{version}_#{arch}.dmg"
   name "RedfireForge"
